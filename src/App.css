@@ -1,0 +1,164 @@
+@font-face {
+  font-family: IranSans;
+  src: url('./font/eot/IRANSansWeb.eot');
+  src: url('./font/woff2/IRANSansWeb.woff2') format('woff2'), url('./font/ttf/IRANSansWeb.ttf') format('woff'), url('./font/ttf/IRANSansWeb.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
+body{
+  direction: rtl;
+  font-family: IRANSans
+}
+
+
+
+p {
+  margin-bottom: 5px;
+  font-family: IranSans !important;
+}
+  label {
+    display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      font-family: IranSans !important;
+  }
+  input[type=text] {
+    margin: 0 0 10px;
+    color: #555;
+    background-color: #fff;
+    border-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 400;
+    box-shadow: 0 1px 1px rgba(0,0,0,.075) inset;
+    height: 32px;
+    line-height: 1.3;
+  }
+  .App {
+    background-color: #eaeaea;
+    width: 100%;
+    display: table;
+  }
+  
+  .App > .Content {
+    display: table;
+    margin: 0 auto;
+    padding: 50px 10px;
+    width: 100%;
+    max-width: 900px;
+    font-family: IranSans !important;
+  }
+  
+  .App h2 {
+    color: #ff7f00;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0;
+    font-family: IranSans;
+    
+
+  }
+  .Next {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+  }
+  .Next:hover{
+    background-color: #37843a;
+  }
+  .Next:disabled{
+    cursor: not-allowed;
+    background-color: #7aa07c;
+  }
+  .Back {
+    background-color: #c77f27;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+  }
+  .Back:hover{
+    background-color: #9e631b;
+  }
+
+  .settingForm{
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .settingForm  label{
+    width: 15% !important;
+  }
+ 
+  .App > .Content{
+    direction: rtl;
+  }
+ .calendarContainer  {
+    margin-top: 205px !important ;
+    padding: 100px;
+  } 
+  .calender{
+    /* margin-top: 200px; */
+    margin-bottom: 20px;
+  }
+
+  .settingButton{
+    margin-right: 20px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+  }
+
+  .settingButton  button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+    background-color:#0c7b93;
+    color: #fff;
+  }
+
+  .card {
+    margin: 50px 0 0;
+  }
+  
+  .form-control {
+    padding: .375rem 0;
+    border: none;
+  }
+  
+  .preview img {
+    max-width: 100px;
+  }
+  
+  
+  .invalid-input {
+    border-color: red;
+  }
+
+  .error{
+    color: red;
+    text-align: center;
+    width: 61%;
+    padding-bottom: 20px;
+  }
+  .showImag img{
+    max-width: 100px;
+  }
